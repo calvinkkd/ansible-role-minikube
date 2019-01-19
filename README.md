@@ -48,13 +48,13 @@ This role works with only the defaults so using it is trivial:
 
     - hosts: all
       roles:
-        - vrischmann.minikube
+        - kofikod.minikube
 
 If you want to change the installation directory:
 
     - hosts: all
       roles:
-        - { role: vrischmann.minikube, minikube_install_dir: "/sbin" }
+        - { role: kofikod.minikube, minikube_install_dir: "/sbin" }
 
 License
 -------
